@@ -12,4 +12,4 @@ Se puede ver si hemos añadido bien los archivo al stage con ‘git status’ de
 4. Ahora ya están preparados para su commit. Con el comando ‘git commit -m “Título relacionado”' serán almacenados localmente y confirmados para subirse al proyecto final.
 Se puede volver a hacer otra comprobación con ‘git status’ y asegurarse de que la rama principal está por detrás de la local debido a ese commit.
 
-5. Por último con el comando ‘git push’ incorporamos los cambios del archivo modificado al proyecto remoto.
+5. Por último con el comando ‘git push’ incorporamos los cambios del archivo modificado al proyecto remoto de GitHub.
