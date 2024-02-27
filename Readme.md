@@ -13,3 +13,13 @@ Se puede ver si hemos añadido bien los archivo al stage con ‘git status’ de
 Se puede volver a hacer otra comprobación con ‘git status’ y asegurarse de que la rama principal está por detrás de la local debido a ese commit.
 
 5. Por último con el comando ‘git push’ incorporamos los cambios del archivo modificado al proyecto remoto de GitHub.
+
+gitignore:
+
+Para el reto 4 se ha añadido en gitignore la carpeta con las imágenes del reto_2, 
+y también el package.json ya que nunca debe ser visible en el repositorio remoto.
+Posteriormente se ha realizado un "git add ." para subir todos los archivos al stage, 
+después se han commiteado y subido finalmente al repositorio de GitHub con el push.
+Al revisar los archivos en remoto se ha comprobado que aunque está la carpeta de 
+gitignore no se puede acceder a lo que contiene, por lo que no se podrían
+ver las imágenes de la carpeta reto_2.
