@@ -1,3 +1,5 @@
+Reto 2:
+
 1. En primer lugar, se ha de tener un repositorio remoto en GitHub que vincularemos a un repositorio local.
 Para ello es necesario clonar el proyecto remoto copiando su URL (disponible en el botón < code >) y
 pegandola detrás del comando:  'git clone' .
@@ -14,7 +16,8 @@ Se puede volver a hacer otra comprobación con ‘git status’ y asegurarse de 
 
 5. Por último con el comando ‘git push’ incorporamos los cambios del archivo modificado al proyecto remoto de GitHub.
 
-gitignore:
+
+Reto 4 (gitignore):
 
 Para el reto 4 se ha añadido en gitignore la carpeta con las imágenes del reto_2, 
 y también el package.json ya que nunca debe ser visible en el repositorio remoto.
